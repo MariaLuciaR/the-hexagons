@@ -116,3 +116,8 @@ header a {
 .record img {
     max-width: 100%;
 }
+
+footer {
+    background-color: #2C9BFF;
+    padding: 15px;
+}
