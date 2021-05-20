@@ -10,15 +10,15 @@
 <body>
     <header>
         <nav class="nav-left">
-            <a href="#">About</a>
-            <a href="#">Music</a>
+            <a href="#/">About</a>
+            <a href="#/">Music</a>
             </nav>
         <h1>
             <img src="./assets/logo.svg" alt="logo">
         </h1>
         <nav class="nav-right">
-            <a href="#">Shows</a>
-            <a href="#">Store</a>
+            <a href="#/">Shows</a>
+            <a href="#/">Store</a>
         </nav>
     </header>
 
@@ -29,15 +29,16 @@
     <section class="store">
         <div class="store-container">
             <h1>Store</h1>
-            <nav>
-                <a href="#">All</a>
-                <a href="#">Albums</a>
-                <a href="#">Singles</a>
-                <a href="#">Vinyl</a>
+            <a href="#/" class="toggle-filters">Show Filters</a>
+            <nav class="filters">
+                <a class="selected" href="#/">All</a>
+                <a href="#/">Albums</a>
+                <a href="#/">Singles</a>
+                <a href="#/">Vinyl</a>
             </nav>
             <div class="collection">
                 <!-- Record 1 - Hexagon -->
-                <div class="record">
+                <div class="record vinyl">
                     <div class="overlay">
                         <h2>Hexagon</h2>
                         <p>£25</p>
@@ -45,7 +46,7 @@
                     <img src="./assets/hexagon.jpg" alt="Hexagon vinyl"> 
                 </div>
                 <!-- Record 2 - The Maze -->
-                <div class="record">
+                <div class="record vinyl">
                     <div class="overlay">
                         <h2>The Maze</h2>
                         <p>£25</p>
@@ -53,7 +54,7 @@
                     <img src="./assets/the-maze.jpg" alt="The Maze vinyl"> 
                 </div>
                 <!-- Record 3 - Happy -->
-                <div class="record">
+                <div class="record single">
                     <div class="overlay">
                         <h2>Happy</h2>
                         <p>£5</p>
@@ -61,7 +62,7 @@
                     <img src="./assets/happy.jpg" alt="happy"> 
                 </div>
                 <!-- Record 4 - Red and Blue -->
-                <div class="record">
+                <div class="record album">
                     <div class="overlay">
                         <h2>Red and Blue</h2>
                         <p>£8</p>
@@ -69,7 +70,7 @@
                     <img src="./assets/red-and-blue.jpg" alt="Read and Blue album"> 
                 </div>
                 <!-- Record 5 - Shapeshifters -->
-                <div class="record">
+                <div class="record album">
                     <div class="overlay">
                         <h2>Shapeshifters</h2>
                         <p>£12</p>
@@ -77,7 +78,7 @@
                     <img src="./assets/shapeshifters.jpg" alt="Shapeshifters album"> 
                 </div>
                 <!-- Record 6 - Outburst -->
-                <div class="record">
+                <div class="record single">
                     <div class="overlay">
                         <h2>Outburst</h2>
                         <p>£5</p>
@@ -90,5 +91,9 @@
     <footer>
         <img src="./assets/logo.svg" alt="logo">
     </footer>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
 </body>
 </html>
