@@ -10,15 +10,15 @@
 <body>
     <header>
         <nav class="nav-left">
-            <a href="#">About</a>
-            <a href="#">Music</a>
+            <a href="#/">About</a>
+            <a href="#/">Music</a>
             </nav>
         <h1>
             <img src="./assets/logo.svg" alt="logo">
         </h1>
         <nav class="nav-right">
-            <a href="#">Shows</a>
-            <a href="#">Store</a>
+            <a href="#/">Shows</a>
+            <a href="#/">Store</a>
         </nav>
     </header>
 
@@ -29,11 +29,12 @@
     <section class="store">
         <div class="store-container">
             <h1>Store</h1>
-            <nav>
-                <a class="filter" href="#/">All</a>
-                <a class="filter" href="#/">Albums</a>
-                <a class="filter" href="#/">Singles</a>
-                <a class="filter" href="#/">Vinyl</a>
+            <a href="#/" class="toggle-filters">Show Filters</a>
+            <nav class="filters">
+                <a class="selected" href="#/">All</a>
+                <a href="#/">Albums</a>
+                <a href="#/">Singles</a>
+                <a href="#/">Vinyl</a>
             </nav>
             <div class="collection">
                 <!-- Record 1 - Hexagon -->
@@ -93,6 +94,6 @@
 
     <!-- Scripts -->
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-    <script src="./scripts/script.js"></script>
+    <script src="./script.js"></script>
 </body>
 </html>
